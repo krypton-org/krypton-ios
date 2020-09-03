@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4262F2E25012BA300742083 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4262F2D25012BA300742083 /* Query.swift */; };
 		A4E8A6BA25012A420047782A /* krypton_ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E8A6B925012A420047782A /* krypton_ios.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A4262F2D25012BA300742083 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		A4262F3125012D4E00742083 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../krypton-ios-null/README.md"; sourceTree = "<group>"; };
+		A4262F3225012D6100742083 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4262F3325012D6700742083 /* THIRD-PARTY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "THIRD-PARTY.md"; sourceTree = "<group>"; };
+		A4262F3425012D6C00742083 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		A4E8A6B625012A420047782A /* libkrypton-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libkrypton-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E8A6B925012A420047782A /* krypton_ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = krypton_ios.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4262F2825012B2E00742083 /* example */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		A4262F2925012B3E00742083 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A4262F2B25012B6D00742083 /* src */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A4262F2A25012B4E00742083 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		A4262F2B25012B6D00742083 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A4262F2D25012BA300742083 /* Query.swift */,
+				A4262F2C25012B7600742083 /* data */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A4262F2C25012B7600742083 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		A4E8A6AD25012A420047782A = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +101,14 @@
 		A4E8A6B825012A420047782A /* krypton-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A4262F2A25012B4E00742083 /* tool */,
+				A4262F2925012B3E00742083 /* lib */,
+				A4262F2825012B2E00742083 /* example */,
 				A4E8A6B925012A420047782A /* krypton_ios.swift */,
+				A4262F3125012D4E00742083 /* README.md */,
+				A4262F3225012D6100742083 /* LICENSE */,
+				A4262F3325012D6700742083 /* THIRD-PARTY.md */,
+				A4262F3425012D6C00742083 /* CHANGELOG.md */,
 			);
 			path = "krypton-ios";
 			sourceTree = "<group>";
@@ -120,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4262F2E25012BA300742083 /* Query.swift in Sources */,
 				A4E8A6BA25012A420047782A /* krypton_ios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
