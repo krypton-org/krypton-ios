@@ -1,6 +1,6 @@
 
 class PageInfo {
-    var currentPage:Int?
+    var currentPage:Int!
     var perPage:Int?
     var pageCount:Int?
     var itemCount:Int?
@@ -8,7 +8,7 @@ class PageInfo {
     var hasPreviousPage:Bool?
 
     init(json:Dictionary<String, Any>){
-        currentPage = json["currentPage"] as? Int
+        currentPage = (json["currentPage"] as! Int)
         perPage = json["perpage"] as? Int
         pageCount = json["pageCount"] as? Int
         itemCount = json["itemCount"] as? Int
